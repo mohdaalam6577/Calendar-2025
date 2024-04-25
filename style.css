@@ -235,6 +235,10 @@ th:hover {
     border: 1px solid rgb(116, 105, 13);
 }
 
+.sun {
+    color: red;
+}
+
 @media screen and (max-width: 600px) {
     table {
         border: 0;
