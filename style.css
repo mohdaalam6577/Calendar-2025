@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #183D3D;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 2px;
+    /* position: fixed; */
+}
+
+main {
+    margin: 20px;
+    text-align: center;
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #183D3D;
+    letter-spacing: 5px;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    /* color: green; */
+}
+span {
+    color: red;
+}
+
+table, th {
+    border: 1px solid black;
+    /* border-radius: 50%; */
+    /* border: none; */
+    
+}
+
+th, td {
+    padding: 5px;
+    text-align: center;
+}
+
+th {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+th:hover {
+    /* color: black; */
+    background-color: blue;
+    border: 1px solid blue;
+}
+
+.jan {
+    background-color: #f2f2f2;
+    border: 1px solid darkgreen;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 40px;
+    /* box-shadow: 2px black; */
+} 
+
+.tab-1 {
+    background-color: darkgreen;
+    color: white;
+    border: 1px solid darkgreen
+
+}
+
+.feb {
+    background-color: #f2f2f2;
+    border: 1px solid darkred;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 40px;
+}
+
+.tab-2 {
+    background-color: darkred;
+    color: white;
+    border: 1px solid darkred;
+}
+
+.mar {
+    background-color: #f2f2f2;
+    border: 1px solid darkmagenta;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 40px; 
+}
+
+.tab-3 {
+    background-color: darkmagenta;
+    color: white;
+    border: 1px solid darkmagenta;
+}
+
+.apr {
+    background-color: #f2f2f2;
+    border: 1px solid darkblue;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 40px;
+}
+
+.tab-4 {
+    background-color: darkblue;
+    color: white;
+    border: 1px solid darkblue;
+}
+
+.may {
+    background-color: #f2f2f2;
+    border: 1px solid darkgoldenrod;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 40px;
+}
+
+.tab-5 {
+    background-color: darkgoldenrod;
+    color: white;
+    border: 1px solid darkgoldenrod;
+}
+
+.jun {
+    background-color: #f2f2f2;
+    border: 1px solid darkcyan;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 40px;
+}
+
+.tab-6 {
+    background-color: darkcyan;
+    color: white;
+    border: 1px solid darkcyan;
+}
+
+.jul {
+    background-color: #f2f2f2;
+    border: 1px solid darkviolet;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 40px;
+}
+
+.tab-7 {
+    background-color: darkviolet;
+    color: white;
+    border: 1px solid darkviolet;
+}
+
+.aug {
+    background-color: #f2f2f2;
+    border: 1px solid darkolivegreen;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 40px;
+}
+
+.tab-8 {
+    background-color: darkolivegreen;
+    color: white;
+    border: 1px solid darkolivegreen;
+}
+
+.sep {
+    background-color: #f2f2f2;
+    border: 1px solid rgb(112, 53, 53);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 40px;
+}
+
+.tab-9 {
+    background-color: rgb(112, 53, 53);
+    color: white;
+    border: 1px solid rgb(112, 53, 53);
+}
+
+.oct {
+    background-color: #f2f2f2;
+    border: 1px solid rgb(209, 40, 138);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 40px;
+}
+
+.tab-10 {
+    background-color: rgb(209, 40, 138);
+    color: white;
+    border: 1px solid rgb(209, 40, 138);
+}
+
+.nov {
+    background-color: #f2f2f2;
+    border: 1px solid rgb(16, 16, 54);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 40px;
+}
+
+.tab-11 {
+    background-color: rgb(16, 16, 54);
+    color: white;
+    border: 1px solid rgb(16, 16, 54);
+}
+
+.dec {
+    background-color: #f2f2f2;
+    border: 1px solid rgb(116, 105, 13);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 40px;
+}
+
+.tab-12 {
+    background-color: rgb(116, 105, 13);
+    color: white;
+    border: 1px solid rgb(116, 105, 13);
+}
+
+@media screen and (max-width: 600px) {
+    table {
+        border: 0;
+    }
+    
+    table tr {
+        margin-bottom: 10px;
+        /* display: block; */
+        border: 1px solid #ccc;
+        /* border-radius: 20px; */
+    }
+    
+    table td {
+        /* display: block; */
+        text-align: center;
+        font-size: small;
+    }
+}
+
+footer {
+    background-color: #183D3D;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer span {
+    color: red;
+}
